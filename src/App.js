@@ -12,10 +12,10 @@ function App() {
       <Switch>
         
         <Route path='/' exact>
-          <Redirect to='/grayjay.applause.stream/profile/Hrithik'/>
+          <Redirect to='/hrithikkoundal7.github.io/applause/'/>
         </Route>
         
-        <Route path={'/grayjay.applause.stream/profile/Hrithik'}>
+        <Route path={'/hrithikkoundal7.github.io/applause/'}>
           <Applause />
         </Route>
       
