@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import {Route,Switch,Redirect} from 'react-router-dom'
+import Applause from './pages/Applause'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( 
+     <div>
+      <header><Header/></header>
+      
+      <main>
+      <Switch>
+        
+        <Route path='/' exact>
+          <Redirect to='/grayjay.applause.stream/profile/Hrithik'/>
+        </Route>
+        
+        <Route path={'/grayjay.applause.stream/profile/Hrithik'}>
+          <Applause />
+        </Route>
+      
+      </Switch>
+    </main>
+    <footer><Footer/></footer>
     </div>
   );
 }
