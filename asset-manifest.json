@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/applause/static/css/main.6a303f6a.css",
+    "main.js": "/applause/static/js/main.691a3e52.js",
+    "static/media/upcoming.jpg": "/applause/static/media/upcoming.29fb4f32495d398ac030.jpg",
+    "static/media/main.png": "/applause/static/media/main.bcaffa50c8fe4dbd9254.png",
+    "static/media/linkedin.png": "/applause/static/media/linkedin.b1bebb391a157454d569.png",
+    "static/media/unique.jpg": "/applause/static/media/unique.3da7e2e3e056f6cb357b.jpg",
+    "static/media/twitter.png": "/applause/static/media/twitter.ad94723b4378494a8547.png",
+    "static/media/tiktok.png": "/applause/static/media/tiktok.8016b20053c03c7a4006.png",
+    "static/media/youtubewhite.png": "/applause/static/media/youtubewhite.5ef29ecd695ef3615c7e.png",
+    "static/media/Badminton.png": "/applause/static/media/Badminton.ba1ca611a03a9f487b11.png",
+    "static/media/InstagramWHITE.png": "/applause/static/media/InstagramWHITE.1d0e6a528be5655e7451.png",
+    "static/media/naruto.jfif": "/applause/static/media/naruto.994f62890b8033dd8ce5.jfif",
+    "static/media/twitterwhite.png": "/applause/static/media/twitterwhite.3057c0ad5daa5084f819.png",
+    "static/media/hands.png": "/applause/static/media/hands.d7f48b3c66a3dee858e2.png",
+    "static/media/google.png": "/applause/static/media/google.c5af9613bef43952e483.png",
+    "static/media/facebookwhite.png": "/applause/static/media/facebookwhite.fef8c189891d7ac470c9.png",
+    "static/media/youtube.png": "/applause/static/media/youtube.6ce5ffa68caf67d46483.png",
+    "static/media/tiktokwhite.png": "/applause/static/media/tiktokwhite.9b64f32a82e8add40098.png",
+    "index.html": "/applause/index.html",
+    "main.6a303f6a.css.map": "/applause/static/css/main.6a303f6a.css.map",
+    "main.691a3e52.js.map": "/applause/static/js/main.691a3e52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a303f6a.css",
+    "static/js/main.691a3e52.js"
+  ]
+}
