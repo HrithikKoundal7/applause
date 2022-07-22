@@ -1,9 +1,9 @@
 import classes from './Footer.module.css'
-import instagram from '../images/InstagramWHITE.png'
-import tiktok from '../images/tiktokwhite.png'
-import facebook from '../images/facebookwhite.png'
-import youtube from '../images/youtubewhite.png'
-import twitter from '../images/twitterwhite.png'
+import instagram from '../../images/InstagramWHITE.png'
+import tiktok from '../../images/tiktokwhite.png'
+import facebook from '../../images/facebookwhite.png'
+import youtube from '../../images/youtubewhite.png'
+import twitter from '../../images/twitterwhite.png'
 
 const Footer=()=>{
     return(

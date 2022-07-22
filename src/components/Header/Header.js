@@ -1,5 +1,5 @@
 import classes from './Header.module.css'
-import hands from '../images/hands.png'
+import hands from '../../images/hands.png'
 
 
 const Header=()=>{

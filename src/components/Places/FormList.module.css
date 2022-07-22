@@ -1,0 +1,71 @@
+@media(min-width:601px){
+
+.a{  
+    clear: both;
+    text-decoration: none;
+    display: flex;
+    font-size: 12px;
+    color: black;
+    width:100px;
+    float: left;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+
+span > img{
+    margin-right: 10px;
+}
+
+.add{
+    float:left;
+    opacity: 0.65;
+    display: flex;
+    margin-left: 18px;
+    justify-content:baseline;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.add:hover{
+    opacity: 0.9;
+    cursor:pointer;
+}
+
+}
+
+@media(max-width:600px){
+
+    .a{  
+        clear: both;
+        text-decoration: none;
+        display: flex;
+        font-size: 12px;
+        color: black;
+        width:100px;
+        float: left;
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    
+    
+    span > img{
+        margin-right: 10px;
+    }
+    
+    .add{
+        float:right;
+        opacity: 0.65;
+        display: flex;
+        margin-right: 10px;
+        justify-content:baseline;
+        align-items: center;
+        margin-top: 3px;
+    }
+    
+    .add:hover{
+        opacity: 0.9;
+        cursor:pointer;
+    }
+    
+}

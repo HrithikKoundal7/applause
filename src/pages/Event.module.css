@@ -1,0 +1,640 @@
+@media(min-width:1200px){
+.background{
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url('../images/unique.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card{
+    background-color: aliceblue;
+    width:50%;
+    height:80%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.card1{
+    float: left;
+    height:100%;
+    width:60%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px 0 0 15px;
+}
+
+.card2{
+    float: left;
+    height: 100%;
+    width:40%;
+    background-color: rgb(48, 48, 48);
+    border-radius: 0 15px 15px 0;
+}
+
+.form{
+    padding: 40px;
+}
+
+.form1{
+    padding:25px;
+}
+
+.box{
+    height:360px;
+    width:100%;
+    background-color: white;
+    border-radius: 15px;
+}
+.form2{
+    padding: 15px;
+}
+.image{
+    border-radius: 10px;
+    height: 130px;
+    width:100%;
+}
+
+.large{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: -5px;
+}
+
+.medium{
+   font-weight: 18px;
+}
+
+.small{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.large_1{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.medium_1{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.small_1{
+    font-size: 8px;
+}
+
+.color{
+    color: pink;
+    margin-left: 85px;
+}
+
+.circle1{
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    background-color:  rgb(48, 48, 48);
+    margin-left: -22px;
+    float: left;
+}
+
+.circle2{
+    float: right;
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    background-color:  rgb(48, 48, 48);
+    margin-right: -22px;
+}
+
+.barcode{
+    margin-top: 20px;
+}
+
+.bttn{
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220);
+}
+
+.bttn:hover{
+    cursor: not-allowed;
+}
+
+.input{
+   border-radius: 7px;
+   border: 1px solid;
+   width:100%;
+   height:30px;
+   color: rgb(206, 206, 206);
+
+}
+
+.checkbox{
+    float:left;
+    height: 17px;
+    width: 17px;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+.clock{
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+
+.text{
+    float:left;
+    color:white;
+    margin-top:40px;
+    font-size: 12px;
+}
+
+}
+
+@media(min-width:900px) and (max-width:1199px){
+    .background{
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background-image: url('../images/unique.jpg');
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .card{
+        background-color: aliceblue;
+        width:70%;
+        height:80%;
+        margin-left: 15%;
+        margin-top: 5%;
+        border-radius: 15px;
+    }
+    
+    .card1{
+        float: left;
+        height:100%;
+        width:60%;
+        background-color: rgb(250, 250, 250);
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .card2{
+        float: left;
+        height: 100%;
+        width:40%;
+        background-color: rgb(48, 48, 48);
+        border-radius: 0 15px 15px 0;
+    }
+    
+    .form{
+        padding: 40px;
+    }
+    
+    .form1{
+        padding:25px;
+    }
+    
+    .box{
+        height:360px;
+        width:100%;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .form2{
+        padding: 15px;
+    }
+    .image{
+        border-radius: 10px;
+        height: 130px;
+        width:100%;
+    }
+    
+    .large{
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: -5px;
+    }
+    
+    .medium{
+       font-weight: 18px;
+    }
+    
+    .small{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .large_1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .medium_1{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .small_1{
+        font-size: 8px;
+    }
+    
+    .color{
+        color: pink;
+        margin-left: 85px;
+    }
+    
+    .circle1{
+        height:12px;
+        width:12px;
+        border-radius: 50%;
+        background-color:  rgb(48, 48, 48);
+        margin-left: -22px;
+        float: left;
+    }
+    
+    .circle2{
+        float: right;
+        height:12px;
+        width:12px;
+        border-radius: 50%;
+        background-color:  rgb(48, 48, 48);
+        margin-right: -22px;
+    }
+    
+    .barcode{
+        margin-top: 20px;
+    }
+    
+    .bttn{
+        border-radius: 10px;
+        background-color: rgb(220, 220, 220);
+    }
+    
+    .bttn:hover{
+        cursor: not-allowed;
+    }
+    
+    .input{
+       border-radius: 7px;
+       border: 1px solid;
+       width:100%;
+       height:30px;
+       color: rgb(206, 206, 206);
+    
+    }
+    
+    .checkbox{
+        float:left;
+        height: 17px;
+        width: 17px;
+        margin-top: 17px;
+        margin-right: 10px;
+    }
+    
+    .clock{
+        margin-left: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .text{
+        float:left;
+        color:white;
+        margin-top:40px;
+        font-size: 12px;
+    }
+    
+    }
+
+    
+@media(max-width:499px){
+
+    .background{
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background-image: url('../images/unique.jpg');
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .card{
+        background-color: aliceblue;
+        width:90%;
+        height:60%;
+        margin-left: 5%;
+        margin-top: 20%;
+        border-radius: 15px;
+    }
+    
+    .card1{
+        float: left;
+        height:100%;
+        width:60%;
+        background-color: rgb(250, 250, 250);
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .card2{
+        float: left;
+        height: 100%;
+        width:40%;
+        background-color: rgb(48, 48, 48);
+        border-radius: 0 15px 15px 0;
+    }
+    
+    .form{
+        padding: 10px;
+    }
+    
+    .form1{
+        padding:10px;
+    }
+    
+    .box{
+        height:280px;
+        width:100%;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .form2{
+        padding: 15px;
+    }
+    .image{
+        border-radius: 10px;
+        height: 60px;
+        width:100%;
+    }
+    
+    .large{
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: -5px;
+        margin-top: 10px;
+    }
+    
+    .medium{
+       font-weight: 17px;
+    }
+    
+    .small{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    
+    .large_1{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .medium_1{
+        font-weight: bold;
+        font-size: 9px;
+    }
+    
+    .small_1{
+        font-size: 7px;
+    }
+    
+    .color{
+        color: pink;
+        float:right;
+        margin-top:10px;
+        margin-right: 5px;
+    }
+    
+    .circle1{
+        height:12px;
+        width:12px;
+        border-radius: 50%;
+        background-color:  rgb(48, 48, 48);
+        margin-left: -22px;
+        float: left;
+    }
+    
+    .circle2{
+        float: right;
+        height:12px;
+        width:12px;
+        border-radius: 50%;
+        background-color:  rgb(48, 48, 48);
+        margin-right: -22px;
+    }
+    
+    .barcode{
+        margin-top: 20px;
+    }
+    
+    .bttn{
+        border-radius: 10px;
+        background-color: rgb(220, 220, 220);
+    }
+    
+    .bttn:hover{
+        cursor: not-allowed;
+    }
+    
+    .input{
+       border-radius: 7px;
+       border: 1px solid;
+       width:100%;
+       height:30px;
+       color: rgb(206, 206, 206);
+    
+    }
+    
+    .checkbox{
+        float:left;
+        height: 17px;
+        width: 17px;
+        margin-top: 17px;
+        margin-right: 10px;
+    }
+    
+    .clock{
+        margin-left: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .text{
+        float:left;
+        color:white;
+        margin-top:20px;
+        font-size: 12px;
+    }
+    
+    }
+
+       
+@media(min-width:500px) and (max-width:899px){
+
+    .background{
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background-image: url('../images/unique.jpg');
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .card{
+        background-color: aliceblue;
+        width:90%;
+        height:80%;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 15px;
+    }
+    
+    .card1{
+        float: left;
+        height:100%;
+        width:60%;
+        background-color: rgb(250, 250, 250);
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .card2{
+        float: left;
+        height: 100%;
+        width:40%;
+        background-color: rgb(48, 48, 48);
+        border-radius: 0 15px 15px 0;
+    }
+    
+    .form{
+        padding: 40px;
+    }
+    
+    .form1{
+        padding:25px;
+    }
+    
+    .box{
+        height:360px;
+        width:100%;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .form2{
+        padding: 15px;
+    }
+    .image{
+        border-radius: 10px;
+        height: 130px;
+        width:100%;
+    }
+    
+    .large{
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: -5px;
+    }
+    
+    .medium{
+       font-weight: 18px;
+    }
+    
+    .small{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .large_1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .medium_1{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .small_1{
+        font-size: 8px;
+    }
+    
+    .color{
+        color: pink;
+        float:right;
+        margin-top:10px;
+        margin-right: 5px;
+    }
+    
+    .circle1{
+        height:12px;
+        width:12px;
+        border-radius: 50%;
+        background-color:  rgb(48, 48, 48);
+        margin-left: -22px;
+        float: left;
+    }
+    
+    .circle2{
+        float: right;
+        height:12px;
+        width:12px;
+        border-radius: 50%;
+        background-color:  rgb(48, 48, 48);
+        margin-right: -22px;
+    }
+    
+    .barcode{
+        margin-top: 20px;
+    }
+    
+    .bttn{
+        border-radius: 10px;
+        background-color: rgb(220, 220, 220);
+    }
+    
+    .bttn:hover{
+        cursor: not-allowed;
+    }
+    
+    .input{
+       border-radius: 7px;
+       border: 1px solid;
+       width:100%;
+       height:30px;
+       color: rgb(206, 206, 206);
+    
+    }
+    
+    .checkbox{
+        float:left;
+        height: 17px;
+        width: 17px;
+        margin-top: 17px;
+        margin-right: 10px;
+    }
+    
+    .clock{
+        margin-left: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .text{
+        float:left;
+        color:white;
+        margin-top:40px;
+        font-size: 12px;
+    }
+    
+    }

@@ -1,0 +1,658 @@
+@media(min-width:971px){
+
+.events{
+    clear: both;
+    float: left;
+    margin-left: 20%;
+    margin-top: 30px;
+    width:500px;
+    height: 150px;
+    display: block;
+    background-color: transparent;
+    position:relative;
+    box-sizing: content-box;
+    margin-bottom: 30px;
+}
+
+.events:hover{
+    animation: animate 1s linear forwards;
+    border: 2px solid rgb(255, 190, 69);
+    cursor: pointer;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+.span{
+    color:rgb(255, 0, 187);
+}
+
+.img{
+    margin-left: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 2%;
+    height: 150px;
+    width:220px;
+}
+
+.events > div{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.events > p{
+    font-size: 13px;
+    color: rgb(46, 46, 46);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.events > button{
+    padding:1.5% 3%;
+    margin-top: 5px;
+    background-color: rgb(255, 197, 88);
+}
+
+.events > button:hover{
+    background-color: rgb(255, 181, 43);;
+}
+
+.events > button:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.edit{
+    position: absolute;
+    opacity: 0.7;
+}
+
+.edit:hover{
+    opacity: 1;
+}
+
+.editcard{
+    float:left;
+    height:150px;
+    width:160px;
+    background-color: #dedede;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px 10px 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(255, 190, 69);
+}
+
+.edittext{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.editinput{
+    width:100%;
+    border-radius: 7px;
+    border: 1px solid;
+    margin-top: 2px;
+    background-color: #ededed;
+}
+
+.editbutton{
+    padding:5px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: rgb(255, 197, 88);
+}
+.editbutton:hover{
+    background-color: rgb(255, 181, 43);;
+}
+
+.editbutton:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.editbutton_{
+    padding:5px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color:  rgb(255, 197, 88);
+}
+.editbutton_:hover{
+    background-color: rgb(255, 181, 43);
+    cursor: not-allowed;
+}
+
+.editbutton_:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.card_{
+    width: 30px;
+    height: 50px;
+    float: right;
+}
+
+.det{
+    margin-top: 35px;
+    opacity: 0.7;
+}
+
+.det:hover{
+    opacity: 1;
+}
+
+}
+
+@media(min-width:790px) and (max-width:970px){
+
+    
+.events{
+    float: left;
+    margin-left: 20%;
+    margin-top: 30px;
+    width:450px;
+    height: 130px;
+    display: block;
+    background-color: transparent;
+    position:relative;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+}
+
+.events:hover{
+    animation: animate 1s linear forwards;
+    border: 2px solid rgb(255, 190, 69);
+    cursor: pointer;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+.span{
+    color:rgb(255, 0, 187);
+}
+
+.img{
+    margin-left: 10px;
+    border-radius: 10px;
+    float: left;
+    width:200px;
+    height:130px;
+    margin-right: 2%;
+}
+
+.events > div{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.events > p{
+    font-size: 13px;
+    color: rgb(46, 46, 46);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.events > button{
+    padding:1.5% 3%;
+    margin-top: 5px;
+    background-color: rgb(255, 197, 88);
+}
+
+.events > button:hover{
+    background-color: rgb(255, 181, 43);;
+}
+
+.events > button:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.edit{
+    position: absolute;
+    opacity: 0.7;
+}
+
+.edit:hover{
+    opacity: 1;
+}
+
+.editcard{
+    float:left;
+    height:130px;
+    width:140px;
+    background-color: #dedede;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px 10px 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(255, 190, 69);
+}
+
+.edittext{
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.editinput{
+    width:100%;
+    border-radius: 7px;
+    border: 1px solid;
+    margin-top: 2px;
+    background-color: #ededed;
+    height: 18px;
+}
+
+.editbutton{
+    padding:4px;
+    font-size: 12px;
+    margin-top: 7px;
+    background-color: rgb(255, 197, 88);
+}
+.editbutton:hover{
+    background-color: rgb(255, 181, 43);;
+}
+
+.editbutton:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.editbutton_{
+    padding:4px;
+    font-size: 12px;
+    margin-top: 7px;
+    background-color:  rgb(255, 197, 88);
+}
+.editbutton_:hover{
+    background-color: rgb(255, 181, 43);
+    cursor: not-allowed;
+}
+
+.editbutton_:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.card_{
+    width: 30px;
+    height: 50px;
+    float: right;
+}
+
+.det{
+    margin-top: 35px;
+    opacity: 0.7;
+}
+
+.det:hover{
+    opacity: 1;
+}
+
+}
+
+
+@media(min-width:601px) and (max-width:789px){
+
+    
+    .events{
+        float: left;
+        margin-left: 20%;
+        margin-top: 30px;
+        width:450px;
+        height: 130px;
+        display: block;
+        background-color: transparent;
+        position:relative;
+        box-sizing: content-box;
+        margin-bottom: 10px;
+    }
+    
+    .events:hover{
+        animation: animate 1s linear forwards;
+        border: 2px solid rgb(255, 190, 69);
+        cursor: pointer;
+    }
+    
+    @keyframes animate{
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(-5deg);
+        }
+        50%{
+            transform: rotate(0deg);
+        }
+        75%{
+            transform: rotate(5deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+    }
+    
+    
+    .span{
+        color:rgb(255, 0, 187);
+    }
+    
+    .img{
+        margin-left: 10px;
+        border-radius: 10px;
+        float: left;
+        width:200px;
+        height:130px;
+        margin-right: 2%;
+    }
+    
+    .events > div{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        font-style:italic;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    .events > p{
+        font-size: 13px;
+        color: rgb(46, 46, 46);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .events > button{
+        padding:1.5% 3%;
+        margin-top: 5px;
+        background-color: rgb(255, 197, 88);
+    }
+    
+    .events > button:hover{
+        background-color: rgb(255, 181, 43);;
+    }
+    
+    .events > button:active{
+        background-color: rgb(248, 212, 146);;
+    }
+    
+    .edit{
+        position: absolute;
+        opacity: 0.7;
+    }
+    
+    .edit:hover{
+        opacity: 1;
+    }
+    
+    .editcard{
+        float:left;
+        height:130px;
+        width:140px;
+        background-color: #dedede;
+        margin-top: 30px;
+        margin-left: 20%;
+        padding: 2px 10px 5px 10px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid rgb(255, 190, 69);
+    }
+    
+    .edittext{
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    
+    .editinput{
+        width:100%;
+        border-radius: 7px;
+        border: 1px solid;
+        margin-top: 2px;
+        background-color: #ededed;
+        height: 18px;
+    }
+    
+    .editbutton{
+        padding:4px;
+        font-size: 12px;
+        margin-top: 7px;
+        background-color: rgb(255, 197, 88);
+    }
+    .editbutton:hover{
+        background-color: rgb(255, 181, 43);;
+    }
+    
+    .editbutton:active{
+        background-color: rgb(248, 212, 146);;
+    }
+    
+    .editbutton_{
+        padding:4px;
+        font-size: 12px;
+        margin-top: 7px;
+        background-color:  rgb(255, 197, 88);
+    }
+    .editbutton_:hover{
+        background-color: rgb(255, 181, 43);
+        cursor: not-allowed;
+    }
+    
+    .editbutton_:active{
+        background-color: rgb(248, 212, 146);;
+    }
+    
+    .card_{
+        width: 30px;
+        height: 50px;
+        float: right;
+    }
+    
+    .det{
+        margin-top: 35px;
+        opacity: 0.7;
+    }
+    
+    .det:hover{
+        opacity: 1;
+    }
+    
+    }
+
+@media(max-width:600px){
+
+    .events{
+        clear:both;
+        float: left;
+        margin-left: 20%;
+        margin-top: 30px;
+        width: 60%;
+        height: 260px;
+        background-color: transparent;
+        position:relative;
+        display: block;
+    }
+    
+    .events:hover{
+        animation: animate 1s linear forwards;
+        border: 2px solid rgb(255, 190, 69);
+        cursor: pointer;
+    }
+    
+        @keyframes animate{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(-5deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            75%{
+                transform: rotate(5deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+    }
+    
+    .img{
+        clear: both;
+        border-radius: 10px;
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        height: 130px;
+        width:180px;
+    }
+    
+    .events > div{
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        font-style:italic;
+        font-family:'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .events > p{
+        font-size: 13px;
+        color: rgb(46, 46, 46);
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .events > button{
+        clear: both;
+        padding:1.5% 3%;
+        background-color: rgb(255, 197, 88);
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    .events > button:hover{
+        background-color: rgb(255, 181, 43);;
+    }
+    
+    .events > button:active{
+        background-color: rgb(248, 212, 146);;
+    }
+    
+.edit{
+    position: absolute;
+    opacity: 0.7;
+    margin-top: -25px;
+}
+
+.edit:hover{
+    opacity: 1;
+}
+
+.editcard{
+    float:left;
+    height:150px;
+    width:40%;
+    background-color: #dedede;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding: 2px 10px 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(255, 190, 69);
+}
+
+.edittext{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.editinput{
+    width:100%;
+    border-radius: 7px;
+    border: 1px solid;
+    margin-top: 2px;
+    background-color: #ededed;
+}
+
+.editbutton{
+    padding:5px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: rgb(255, 197, 88);
+}
+.editbutton:hover{
+    background-color: rgb(255, 181, 43);;
+}
+
+.editbutton:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.editbutton_{
+    padding:5px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color:  rgb(255, 197, 88);
+}
+.editbutton_:hover{
+    background-color: rgb(255, 181, 43);
+    cursor: not-allowed;
+}
+
+.editbutton_:active{
+    background-color: rgb(248, 212, 146);;
+}
+
+.card_{
+    width: 30px;
+    height: 50px;
+    float: right;
+}
+
+.det{
+    margin-top: 35px;
+    opacity: 0.7;
+}
+
+.det:hover{
+    opacity: 1;
+}
+
+
+}
