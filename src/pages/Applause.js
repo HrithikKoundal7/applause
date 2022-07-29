@@ -26,7 +26,6 @@ const Applause =()=>{
             <Card>
                 <Places/>
             </Card>
-            
         </div>
             <div className={classes.card_3}>
                 <div className={classes.card_4}>

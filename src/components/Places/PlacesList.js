@@ -6,9 +6,14 @@ import { useContext } from 'react';
 const PlacesList = (props) => {
 
     const ctx = useContext(storeContext);
-
-    const img_name = props.url.split('.');
-    const image = require(`../../images/${img_name[1]}.png`)
+    let image;
+    try{
+        const img_name = props.url.split('.');
+         image = require(`../../images/${img_name[1]}.png`)
+    }
+    catch{
+         image = require('../../images/undefine.png');
+    }
     
     const buttonHandler = () => {
         ctx.removePlace(props.id);

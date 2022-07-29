@@ -1,0 +1,222 @@
+@media(min-width:601px){
+.custom{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    margin-left: 199px;
+    margin-top: 110px;
+    border: 1.2px solid orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 0px 10px 10px 0px ;
+  }
+  
+  .input{
+    width:100%;
+    border-radius: 5px;
+    border: 0.5px solid ;
+    color: rgb(84, 84, 84);
+    background-color: rgb(232, 232, 232);
+    margin-top: 1px;
+  }
+
+  .input:focus{
+    outline: 1px solid orange;
+    border: 0.5px;
+  }
+  
+  .error{
+    width:100%;
+    border-radius: 5px;
+    border: 0.5px solid red;
+    color: red;
+    background-color: rgb(255, 219, 219);
+    margin-top: 1px;
+  }
+
+  .error:focus{
+    outline: 1px solid red;
+    border: 0.5px;
+  }
+
+  .invalid{
+    width:100%;
+    border-radius: 5px;
+    border: 0.5px solid orange;
+    color:  rgb(84, 84, 84);
+    background-color:  rgb(232, 232, 232);
+    margin-top: 1px;
+  }
+
+  .invalid:focus{
+    outline: 1px solid rgb(247, 133, 133);
+    color: rgb(228, 131, 131);
+    background-color: rgb(255, 242, 242);
+    border: 0.5px;
+  }
+
+  .custom > div {
+    margin-top: 7px;
+  }
+  
+  .submit{
+    float:right;
+    margin-top: 5px;
+    opacity: 0.5;
+  }
+
+  .submittext{
+    visibility: hidden;
+    position: absolute;
+    clear: both;
+    top:87px;
+    left: 47px;
+  }
+
+  .submit:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .submit:hover + .submittext{
+        visibility: visible;
+        color: rgb(159, 159, 159);
+    }
+    
+    .clear{
+        float: left;
+        margin-top: 5px;
+        opacity: 0.5;
+    }
+    
+    .cleartext{
+      visibility: hidden;
+      position: absolute;
+      top:87px;
+      left: 28px;
+    }
+
+    .clear:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .clear:hover + .cleartext{
+    visibility: visible;
+    color: rgb(159, 159, 159);
+     }
+  }
+
+@media(max-width:600px){
+
+  .custom{
+    /* position: absolute; */
+    height: 120px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #cecece;
+    margin-top: 80px;
+    border: 1.2px solid orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 0px 10px 0px 10px ;
+  }
+  
+  .input{
+    width:100%;
+    border-radius: 5px;
+    border: 0.5px solid ;
+    color: rgb(84, 84, 84);
+    background-color: rgb(232, 232, 232);
+    margin-top: 1px;
+  }
+
+  .input:focus{
+    outline: 1px solid orange;
+    border: 0.5px;
+  }
+  
+  .error{
+    width:100%;
+    border-radius: 5px;
+    border: 0.5px solid red;
+    color: red;
+    background-color: rgb(255, 219, 219);
+    margin-top: 1px;
+  }
+
+  .error:focus{
+    outline: 1px solid red;
+    border: 0.5px;
+  }
+
+  .invalid{
+    width:100%;
+    border-radius: 5px;
+    border: 0.5px solid orange;
+    color:  rgb(84, 84, 84);
+    background-color:  rgb(232, 232, 232);
+    margin-top: 1px;
+  }
+
+  .invalid:focus{
+    outline: 1px solid rgb(247, 133, 133);
+    color: rgb(228, 131, 131);
+    background-color: rgb(255, 242, 242);
+    border: 0.5px;
+  }
+
+  .custom > div {
+    margin-top: 7px;
+  }
+  
+  .submit{
+    float:right;
+    margin-top: 5px;
+    opacity: 0.5;
+  }
+
+  .submittext{
+    visibility: hidden;
+    position: absolute;
+    clear: both;
+    top:167px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .submit:hover + .submittext{
+        visibility: hidden;
+        color: rgb(159, 159, 159);
+    }
+    
+    .clear{
+        float: left;
+        margin-top: 5px;
+        opacity: 0.5;
+    }
+    
+    .cleartext{
+      visibility: hidden;
+      position: absolute;
+      top:167px;
+      left: 60px;
+    }
+
+    .clear:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .clear:hover + .cleartext{
+    visibility: hidden;
+    color: rgb(159, 159, 159);
+     }
+  }
